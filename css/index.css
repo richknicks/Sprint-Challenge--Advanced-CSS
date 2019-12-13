@@ -160,6 +160,23 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.page-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page-top h1 {
+  font-size: 3rem;
+  margin: 1% 0;
+}
+.page-top nav {
+  padding-bottom: 10px;
+}
+.page-top nav a {
+  text-decoration: none;
+  color: black;
+  padding: 0 13px;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
