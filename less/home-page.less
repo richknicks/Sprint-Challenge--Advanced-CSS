@@ -3,7 +3,12 @@
 .home {
   
   .intro {
-    width: 100%;
+    .top-pic {
+      width: 100%;
+      @media @phone {
+        margin-bottom: 3%;
+      }
+    }
     
     h2 {
       padding: 15px;
@@ -27,6 +32,7 @@
     .blast {
       width: 28%;
       margin: 20px 2.5%;
+      border-radius: 20px;
       @media @phone {
         width: 100%;
       }
@@ -35,6 +41,7 @@
     .launch {
       width: 28%;
       margin: 20px 2.5%;
+      border-radius: 20px;
       @media @phone {
         display: none;
       }
@@ -42,6 +49,7 @@
     .sky {
       width: 28%;
       margin: 20px 2.5%;
+      border-radius: 20px;
       @media @phone {
         display: none;
       }
@@ -51,7 +59,7 @@
   img {
     
     
-    border-radius: 20px;
+    
     height: 100%;
     @media @phone {
       width: 100%;

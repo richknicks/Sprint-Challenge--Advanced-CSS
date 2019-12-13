@@ -200,8 +200,13 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.home .intro {
+.home .intro .top-pic {
   width: 100%;
+}
+@media (max-width: 500px) {
+  .home .intro .top-pic {
+    margin-bottom: 3%;
+  }
 }
 .home .intro h2 {
   padding: 15px;
@@ -227,6 +232,7 @@ footer {
 .home .space-images .blast {
   width: 28%;
   margin: 20px 2.5%;
+  border-radius: 20px;
 }
 @media (max-width: 500px) {
   .home .space-images .blast {
@@ -236,6 +242,7 @@ footer {
 .home .space-images .launch {
   width: 28%;
   margin: 20px 2.5%;
+  border-radius: 20px;
 }
 @media (max-width: 500px) {
   .home .space-images .launch {
@@ -245,6 +252,7 @@ footer {
 .home .space-images .sky {
   width: 28%;
   margin: 20px 2.5%;
+  border-radius: 20px;
 }
 @media (max-width: 500px) {
   .home .space-images .sky {
@@ -252,7 +260,6 @@ footer {
   }
 }
 .home img {
-  border-radius: 20px;
   height: 100%;
 }
 @media (max-width: 500px) {
