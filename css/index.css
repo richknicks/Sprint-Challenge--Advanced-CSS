@@ -176,6 +176,7 @@ p {
   text-decoration: none;
   color: black;
   padding: 0 13px;
+  font-size: 1.2rem;
 }
 footer {
   color: #22283B;
@@ -228,6 +229,24 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn button {
+  border: 1px solid black;
+  padding: 5px 0 2px;
+  width: 30%;
+  background-color: black;
+  color: white;
+  font-size: 1.8rem;
+  border-radius: 4px;
+}
+.home .walk .walk-text .btn button:hover {
+  border: 1px solid black;
+  padding: 5px 0 2px;
+  width: 30%;
+  background-color: white;
+  color: black;
+  font-size: 1.8rem;
+  border-radius: 4px;
 }
 .home .walk .walk-img {
   width: 46%;
