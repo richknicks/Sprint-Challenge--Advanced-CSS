@@ -1,75 +1,135 @@
 // Home Content
 
 .home {
-
   .intro {
+    .top-pic {
+      width: 100%;
+      border-radius: 10px;
+      @media @phone {
+        margin-bottom: 3%;
+      }
+    }
 
     h2 {
       padding: 15px;
+      @media @phone {
+        padding: 0 30px;
+      }
     }
 
     p {
-      padding:0 15px;
+      padding: 0 15px;
+      @media @phone {
+        padding: 0 30px;
+      }
     }
-  
   }
 
   .space-images {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-
-    img {
+    .blast {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
-      height: 100%;
+      @media @phone {
+        width: 100%;
+      }
+    }
+
+    .launch {
+      width: 28%;
+      margin: 20px 2.5%;
+      border-radius: 20px;
+      @media @phone {
+        display: none;
+      }
+    }
+    .sky {
+      width: 28%;
+      margin: 20px 2.5%;
+      border-radius: 20px;
+      @media @phone {
+        display: none;
+      }
     }
   }
 
-  .visit-planets {
-    padding: 15px;
+  img {
+    height: 100%;
+    @media @phone {
+      width: 100%;
+    }
+  }
+}
+
+.visit-planets {
+  padding: 15px;
+
+  h3 {
+    margin-top: 11px;
+  }
+
+  p {
+    margin-top: 13px;
+  }
+}
+
+.walk {
+  margin-top: 60px;
+  border-top: 1px solid @main-border-color;
+  padding: 50px 60px;
+  display: flex;
+  justify-content: center;
+  @media @phone {
+    .column ();
+    padding: 10px 15px;
+    margin-top: 25px;
+  }
+
+  .walk-text {
+    width: 50%;
+    @media @phone {
+      width: 100%;
+      padding-left: 20px;
+    }
 
     h3 {
-      margin-top: 11px;
+      margin-bottom: 10px;
     }
 
     p {
-      margin-top: 13px;
+      margin-bottom: 26px;
+    }
+
+    .btn {
+      button {
+        .button-style (black, white);
+        @media @phone {
+          width: 100%;
+          padding: 25px 5px 25px 0;
+        }
+        &:hover {
+          .button-style (white, black);
+        }
+      }
     }
   }
 
-  .walk {
-    margin-top: 60px;
-    border-top: 1px solid @main-border-color;
-    padding: 50px 60px;
-    display: flex;
-    justify-content: center;
-
-    .walk-text {
-      width: 50%;
-
-      h3 {
-        margin-bottom: 10px;
-      }
-
-      p {
-        margin-bottom: 26px;
-      }
-
-      .btn {
-      }
+  .walk-img {
+    width: 46%;
+    margin-left: 4%;
+    @media @phone {
+      width: 100%;
+      padding-right: 30px;
     }
 
-    .walk-img {
-      width: 46%;
-      margin-left: 4%;
-      
-      img {
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-      }
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
     }
   }
-}// home
+}
+// home
